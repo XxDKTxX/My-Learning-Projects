@@ -26,21 +26,8 @@ public void chargeBattery(int hours) {
     
     if (batteryLevel >= 100) {
     
-    //* hash map sytax reference.
+    batteryLevel = 100;
     
-    import java.util.HashMap;
-
-public class Restaurant {
-	public static void main(String[] args) {
-
-HashMap<String, Integer> restaurantMenu = new
-  HashMap<String, Integer>();
-    
-    restaurantMenu.put("Turkey Burger", 13);
-    restaurantMenu.put("Naan Pizza", 11);
-    restaurantMenu.put("Cranberry Kale Salad", 10);
-      
-      batteryLevel = 100;
     } else { 
     
     System.out.println(batteryLevel);
@@ -79,3 +66,16 @@ public static void main(String[] args) {
     iDroid.hover(2);
  }
 }
+    //* hash map sytax reference.
+    
+    import java.util.HashMap;
+
+public class Restaurant {
+	public static void main(String[] args) {
+
+HashMap<String, Integer> restaurantMenu = new
+  HashMap<String, Integer>();
+    
+    restaurantMenu.put("Turkey Burger", 13);
+    restaurantMenu.put("Naan Pizza", 11);
+    restaurantMenu.put("Cranberry Kale Salad", 10);
